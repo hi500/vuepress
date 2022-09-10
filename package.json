@@ -2,12 +2,14 @@
   "name": "my-vuepress",
   "version": "1.0.0",
   "description": "my vuepress blog project",
+  "homepage": "https://hi500.github.io/vuepress/",
   "main": "index.js",
   "author": "yuanwu",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
   },
   "devDependencies": {
     "vuepress": "^1.9.7"
