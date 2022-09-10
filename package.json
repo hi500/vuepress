@@ -1,0 +1,15 @@
+{
+  "name": "my-vuepress",
+  "version": "1.0.0",
+  "description": "my vuepress blog project",
+  "main": "index.js",
+  "author": "yuanwu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
