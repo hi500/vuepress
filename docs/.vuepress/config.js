@@ -8,7 +8,7 @@ module.exports = {
     nav: [
       { text: "首页", link: "/" },
       {
-        text: "yuanwu 的博客",
+        text: "搜索引擎",
         items: [
           { text: "百度", link: "https://www.baidu.com" },
           { text: "谷歌", link: "https://www.google.com" },
@@ -20,17 +20,27 @@ module.exports = {
       {
         title: "欢迎学习",
         path: "/",
-        collapsable: false, // 是否折叠
-        children: [{ title: "博客简介", path: "/" }],
+        // collapsable: false, // 是否折叠
+        // children: [{ title: "博客简介", path: "/" }],
       },
       {
         title: "基础篇",
-        path: "/demo/one",
+        path: "/demo/",
         collapsable: true,
         children: [
           { title: "第一篇", path: "/demo/one" },
           { title: "第二篇", path: "/demo/two" },
         ],
+      },
+      {
+        title: "Vue",
+        path: "/vue/",
+        collapsable: false,
+      },
+      {
+        title: "Nuxt.js",
+        path: "/nuxtjs/",
+        collapsable: false,
       },
     ],
   },
