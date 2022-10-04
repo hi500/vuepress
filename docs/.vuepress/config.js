@@ -1,6 +1,9 @@
 module.exports = {
   title: "yuanwu VuePress blog",
   description: "my blog test",
+  themeConfig: {
+    logo: '/m.png',
+  },
 
   // theme: 'reco',
   themeConfig: {
@@ -25,11 +28,11 @@ module.exports = {
       },
       {
         title: "基础篇",
-        path: "/demo/",
+        path: "/demo/", //该目录下的README.md文件
         collapsable: true,
         children: [
-          { title: "第一篇", path: "/demo/one" },
-          { title: "第二篇", path: "/demo/two" },
+          { title: "第一篇", path: "/demo/one" }, //该目录下的one.md文件
+          { title: "第二篇", path: "/demo/two" }, //该目录下的two.md文件
         ],
       },
       {
