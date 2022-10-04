@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: /m.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+heroImage: /m.jpg
+heroText: 元武的博客
+tagline: 基于VuePress构建
+actionText: 开始学习 →
 actionLink: /demo/
 features:
 - title: 简洁至上

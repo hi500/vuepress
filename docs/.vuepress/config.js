@@ -2,7 +2,7 @@ module.exports = {
   title: "yuanwu VuePress blog",
   description: "my blog test",
   themeConfig: {
-    logo: '/m.png',
+    logo: '/m.jpg',
   },
 
   // theme: 'reco',
