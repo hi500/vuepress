@@ -1,7 +1,8 @@
----
-title: Hello VuePress
-author: codinglin
-date: '2022-8-28'
----
+# NuxtJS
 
-666666
+### Nuxt2
+<https://nuxtjs.org/>
+
+### Nuxt3
+<https://v3.nuxtjs.org/>
+
